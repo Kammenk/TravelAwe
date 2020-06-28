@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/homeBtn"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        android:iconTint="@color/colorAccent"
+
+        />
+    <item
+        android:id="@+id/searchBtn"
+        android:title="Search"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_search"
+        android:iconTint="@color/colorAccent"
+
+        />
+    <item
+        android:id="@+id/tripBtn"
+        android:title="My trips"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_business_center"
+        android:iconTint="@color/colorAccent"
+
+        />
+    <item
+        android:id="@+id/profileBtn"
+        android:title="Profile"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_account_circle"
+        android:iconTint="@color/colorAccent"
+
+        />
+</menu>
