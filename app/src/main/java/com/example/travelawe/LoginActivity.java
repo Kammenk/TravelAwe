@@ -11,11 +11,6 @@ import android.view.View;
 public class LoginActivity extends AppCompatActivity {
 
 
-    public void openOffer(View view){
-        Intent intent = new Intent(this,DetailActivity.class);
-        startActivity(intent);
-    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,9 +19,4 @@ public class LoginActivity extends AppCompatActivity {
         getSupportActionBar().hide();
     }
 
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        return super.onCreateOptionsMenu(menu);
-    }
 }

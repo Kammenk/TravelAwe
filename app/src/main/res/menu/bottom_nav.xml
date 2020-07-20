@@ -3,14 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     >
     <item
-        android:id="@+id/homeBtn"
+        android:id="@+id/nav_home"
         android:title="Home"
         android:icon="@drawable/ic_home"
         android:iconTint="@color/colorAccent"
 
         />
     <item
-        android:id="@+id/searchBtn"
+        android:id="@+id/nav_search"
         android:title="Search"
         app:showAsAction="ifRoom"
         android:icon="@drawable/ic_search"
@@ -18,7 +18,7 @@
 
         />
     <item
-        android:id="@+id/tripBtn"
+        android:id="@+id/nav_trips"
         android:title="My trips"
         app:showAsAction="ifRoom"
         android:icon="@drawable/ic_business_center"
@@ -26,7 +26,7 @@
 
         />
     <item
-        android:id="@+id/profileBtn"
+        android:id="@+id/nav_account"
         android:title="Profile"
         app:showAsAction="ifRoom"
         android:icon="@drawable/ic_account_circle"

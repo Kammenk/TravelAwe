@@ -9,7 +9,7 @@ import android.view.View;
 public class MainActivity extends AppCompatActivity {
 
     public void move(View view){
-        Intent intent = new Intent(this, LoginActivity.class);
+        Intent intent = new Intent(this, WrapperActivity.class);
         startActivity(intent);
     }
 
